@@ -8,6 +8,7 @@ public class Game {
     public Game() {
         gamePanel = new GamePanel();
         windowForGame = new WindowForGame(gamePanel);
+        gamePanel.requestFocus();
 
     }
 }
